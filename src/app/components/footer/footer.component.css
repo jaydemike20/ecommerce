@@ -60,6 +60,11 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    transition: 0.3 all ease;
+}
+
+.footer__account ul li a:hover, .footer__quicklink ul li a:hover {
+    color: rgba(255,255,255, 0.3);
 }
 
 .footer__app p {
@@ -73,11 +78,39 @@ footer {
 }
 
 
+.app__pic {
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+.app__qr img, .app__logo img {
+    width: 100px;
+    max-width: 100%;
+;
+}
 
 
+.footer__app ul {
+    display: flex;
+}
+
+.footer__app ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.footer__app ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 0;
+}
 
 
-
+.footer__app ul li a:hover {
+    color: blue;
+    transition: 0.3s ease;
+}
 
 
 
