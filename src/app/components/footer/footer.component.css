@@ -1,0 +1,94 @@
+footer {
+    background-color: black;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer__container {
+    border-bottom: 2px solid rgba(255,255,255, 0.2);
+}
+
+.footer__content {
+    margin: 0 8%;
+    padding: 4rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__exclusive p {
+    font-size: 1rem;
+}
+
+.footer__email {
+    position: relative;
+}
+
+.footer__email input {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.footer__email span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.7rem ;
+}
+
+.footer__support {
+    width: 20%;
+}
+
+.footer__support p {
+    font-size: 1rem;
+}
+
+.footer__address {
+    line-height: 1.5rem;
+}
+
+.footer__account ul li, .footer__quicklink ul li{
+    list-style: none;
+}
+
+.footer__account ul li a, .footer__quicklink ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer__app p {
+    font-size: 14px;
+    color: rgba(255,255,255, 0.6);
+}
+
+
+.footer__exclusive, .footer__support, .footer__account, .footer__quicklink, .footer__app {
+    line-height: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.footer__copyright {
+    padding: 1rem;
+    text-align: center;
+    color: rgba(255,255,255, 0.3);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.footer__copyright span {
+    padding-right: .4rem;
+}
